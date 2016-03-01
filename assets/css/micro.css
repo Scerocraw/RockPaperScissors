@@ -1,0 +1,67 @@
+.gameOptions, .highscore {
+    position:relative;
+    top:5px;
+    left:0;
+    right:0;
+    margin:auto auto;
+    width:80%;
+}
+.gameOptions .option {
+    border:1px grey solid;
+    text-align:center;
+    padding:5px;
+}
+
+.gameOptions .option:hover {
+    cursor:pointer;
+    background-color:#d3d3d3;
+}
+
+.gameOptions .option i {
+    font-size:40px;
+}
+
+.gameOptions .option p {
+    font-weight: bold;
+}
+
+.navigation {
+    font-weight:bold;
+    font-size:20px;
+}
+
+.navigation a {
+    color:black;
+    text-decoration:none;
+    padding-left:10px;
+}
+
+.navigation a:hover {
+    text-decoration:underline;
+    color:grey;
+}
+
+.navigation, .score {
+    position:relative;
+    top:5px;
+    left:5px;
+    right:5px;
+    text-align:center;
+}
+
+.score {
+    padding-top:10px;
+    font-size:15px;
+    font-style:italic;
+}
+
+.highscore .myHighscore {
+    background-color:green;
+    color:white;
+}
+
+.error {
+    font-weight:bold;
+    color:darkred;
+    font-size:14px;
+}
